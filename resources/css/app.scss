@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+$body-background-color: #192e45;
+$primary: #7a1d3c;
+$navbar-background-color: #181e26;
+$footer-background-color: $navbar-background-color;
+
+/* #eb4432 */
+
+.laravel {
+    color: #eb4432; /* aqua */
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#wrapper {
+    flex: 1;
+}
+
+@import "bulma/sass/_index.scss";
+
+img.patreon_logo {
+    max-height: 3rem !important;
+    min-height: 2rem !important;
+}
