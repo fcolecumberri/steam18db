@@ -31,7 +31,12 @@
             <ol type="is-upper-roman">
                 <li>Add every game that has a patch (Might not even be possible).</li>
                 <li>Make the project well known among 18+ game communities.</li>
-                <li>A browser extension That allow people see and access the patch directly from the steam web page (similar to steamdb's).</li>
+                <li>
+                    <span style="text-decoration:line-through;">A browser extension That allow people see and access the patch directly from the steam web page (similar to steamdb's).</span>
+                    The extension already exits, it's <a href="https://github.com/fcolecumberri/steam18db_extension">here</a>.
+                    Mozilla's already approved <a href="https://addons.mozilla.org/en-US/firefox/addon/steam18db/">the extension</a>. Hopefully soon chrome will do the same.
+                </li>
+
             </ol>
         <div>
     </div>
