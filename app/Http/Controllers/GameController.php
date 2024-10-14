@@ -15,6 +15,6 @@ class GameController extends Controller
 
     public function search(string $id)
     {
-        return Game::findOr(Game::extract_id($id), ["*"], fn() => null);
+        return Game::findOr(Game::extract_id($id), ["*"], fn() => "{}");
     }
 }
