@@ -12,9 +12,9 @@
     <body>
         <div id="wrapper">
             <x-navbar />
-            <main>
+            <main class="is-fullheight">
                 <section class="section">
-                    <div class="container is-fullheight">
+                    <div class="{{$containerClass ?? 'container'}}">
                         {{ $slot }}
                     </div>
                 </section>
