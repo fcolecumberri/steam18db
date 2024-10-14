@@ -16,7 +16,7 @@
                 </a>
             </div>
             <div class="navbar-end">
-                <a class="navbar-item" href="https://patreon.com/Steam18db">
+                <a class="navbar-item" href="https://patreon.com/Steam18db" target="_blank" rel="noopener noreferrer">
                     <img src="/images/patreon.svg" class="patreon_logo"/>
                 </a>
             </div>
